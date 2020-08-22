@@ -4,10 +4,19 @@ namespace NearbyRestaurants.Domain
 {
     public class OpeningHour
     {
+        /// <summary>
+        /// Day of the week that restaurant is working on
+        /// </summary>
         public DayOfWeek Day { get; private set; }
 
+        /// <summary>
+        /// Time that restaurant starts working
+        /// </summary>
         public TimeSpan From { get; private set; }
 
+        /// <summary>
+        /// Time that restaurant closes on
+        /// </summary>
         public TimeSpan To { get; private set; }
 
         /// <summary>
