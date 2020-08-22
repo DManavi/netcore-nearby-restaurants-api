@@ -65,7 +65,7 @@ namespace NearbyRestaurants.Domain
         /// <param name="price">Price per unit</param>
         /// <param name="available">Is this item available</param>
         /// <returns>Instance of the menu item</returns>
-        public static MenuItem create(string name, string description, string category, float price, bool available) =>
+        public static MenuItem Create(string name, string description, string category, float price, bool available) =>
             new MenuItem()
             {
                 Name = name,

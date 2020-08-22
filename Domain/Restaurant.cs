@@ -31,7 +31,7 @@ namespace NearbyRestaurants.Domain
         /// <param name="openingHours">Opening hours</param>
         /// <param name="location">Point on the map</param>
         /// <returns>New instance of the restaurant</returns>
-        public static Restaurant create(string name, IEnumerable<OpeningHour> openingHours,
+        public static Restaurant Create(string name, IEnumerable<OpeningHour> openingHours,
             GeoJsonPoint<GeoJson2DGeographicCoordinates> location) => new Restaurant()
         {
             Name = name,
